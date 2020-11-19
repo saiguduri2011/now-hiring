@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="secondary_skills" label="Secondary skills" language="en" table="x_snc_now_hiring_job_requisition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>secondary_skills</element>
+            <help/>
+            <hint/>
+            <label>Secondary skills</label>
+            <language>en</language>
+            <name>x_snc_now_hiring_job_requisition</name>
+            <plural>Secondary skills</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+            <sys_created_on>2020-10-29 07:08:03</sys_created_on>
+            <sys_id>4fe3149fdb046010ea1fa35305961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Secondary skills</sys_name>
+            <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_now_hiring_job_requisition_secondary_skills_en</sys_update_name>
+            <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+            <sys_updated_on>2020-10-29 07:08:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Job Applications</name>
+        <order>100</order>
+        <roles>x_snc_now_hiring.applicant</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 06:08:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5a46c057db046010ea1fa35305961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Applications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sys_app_application_5a46c057db046010ea1fa35305961988</sys_update_name>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 06:08:29</sys_updated_on>
+        <title>Job Applications</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</application>
+        <file_path/>
+        <instance_id>c3ea8bb3dbe197c01ddcf22ebf9619bb</instance_id>
+        <instance_name>cert166</instance_name>
+        <name>sys_app_application_5a46c057db046010ea1fa35305961988</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Job Applications</name><order>100</order><roles>x_snc_now_hiring.applicant</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>saikiran.guduri</sys_created_by><sys_created_on>2020-10-29 06:08:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5a46c057db046010ea1fa35305961988</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Job Applications</sys_name><sys_overrides/><sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package><sys_policy/><sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope><sys_update_name>sys_app_application_5a46c057db046010ea1fa35305961988</sys_update_name><sys_updated_by>saikiran.guduri</sys_updated_by><sys_updated_on>2020-10-29 06:08:29</sys_updated_on><title>Job Applications</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>180864940</payload_hash>
+        <record_name>Job Applications</record_name>
+        <reverted_from/>
+        <source>ac30cc9fdbc06010ea1fa35305961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 06:08:29</sys_created_on>
+        <sys_id>1646c057db046010ea1fa35305961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17572f8ccc30000001</sys_recorded_at>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 06:08:29</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>5e46c05756046010efe15265b4775896</update_guid>
+        <update_guid_history>5e46c05756046010efe15265b4775896:180864940</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Job Applications">8ab6c857db046010ea1fa35305961920</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 06:10:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>09e8a8971bcb4b4880f0d8c288a3c440</sys_id>
+        <sys_metadata>5a46c057db046010ea1fa35305961988</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Job Applications</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_scope_delete display_value="">669de1fdc5c94658a3316466e4313a40</sys_scope_delete>
+        <sys_update_name>sys_app_application_5a46c057db046010ea1fa35305961988</sys_update_name>
+        <sys_update_version display_value="sys_app_application_5a46c057db046010ea1fa35305961988">1646c057db046010ea1fa35305961997</sys_update_version>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 06:10:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

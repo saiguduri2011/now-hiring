@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_search_source">
+    <m2m_sp_portal_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_portal display_value="NOW Hiring Portal">2c1f24d3db846010ea1fa353059619b0</sp_portal>
+        <sp_search_source display_value="Job Search">3904959fdbc46010ea1fa3530596197d</sp_search_source>
+        <sys_class_name>m2m_sp_portal_search_source</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 11:49:18</sys_created_on>
+        <sys_id>7a44999fdbc46010ea1fa3530596190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NOW Hiring Portal.Job Search</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>m2m_sp_portal_search_source_7a44999fdbc46010ea1fa3530596190a</sys_update_name>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 11:49:18</sys_updated_on>
+    </m2m_sp_portal_search_source>
+</record_update>

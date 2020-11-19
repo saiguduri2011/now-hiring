@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>start_int</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.state == "200" || (current.state == "300" &amp;&amp; !new x_snc_now_hiring.NOWHiringUtils().anyPendingOrInProgressInterviews(current))</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Start Interview</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[/*
+if (gs.nil(current.inteviewers)) {
+	current.update();
+    action.setRedirectURL(current);
+    gs.addInfoMessage('Please select Interviewers to initiate Interview process');
+} else {
+    var gr = new GlideRecord('x_snc_now_hiring_interview');
+    gr.newRecord();
+    gr.inteviewers = current.inteviewers;
+    gr.job_application = current.sys_id;
+    gr.requisition = current.applying_for;
+    gr.applicant = current.applicant;
+    gr.insert();
+    current.inteviewers = "";
+	current.state = "300";
+    current.update();
+    action.setRedirectURL(current);
+	gs.addInfoMessage('Inteview process initiated with selected interviewers');
+}
+*/
+
+//https://cert166.service-now.com/x_snc_now_hiring_interview_list.do?sysparm_query=job_application%3D8d672417db40a01083f5ea42ca96197b%5Eapplicant%3D2a672417db40a01083f5ea42ca9619d9&sysparm_view=
+//https://cert166.service-now.com/x_snc_now_hiring_interview.do?sys_id=-1&sys_is_list=true&sys_target=x_snc_now_hiring_interview&sysparm_checked_items=&sysparm_fixed_query=&sysparm_group_sort=&sysparm_list_css=&sysparm_query=job_application%3d8d672417db40a01083f5ea42ca96197b%5eapplicant%3d2a672417db40a01083f5ea42ca9619d9&sysparm_referring_url=x_snc_now_hiring_interview_list.do%3fsysparm_query%3djob_application%253D8d672417db40a01083f5ea42ca96197b%255Eapplicant%253D2a672417db40a01083f5ea42ca9619d9%4099%40sysparm_first_row%3d1&sysparm_target=&sysparm_view=
+var URL = "x_snc_now_hiring_interview.do?sys_id=-1&sysparm_query=job_application%3d" + current.sys_id+ "%5eapplicant%3d "+ current.applicant +" %5erequisition%3d" + current.applying_for;
+
+  action.setRedirectURL(URL);]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>jayabharathi.tallada</sys_created_by>
+        <sys_created_on>2020-10-29 07:51:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>64ed109fdb00a01083f5ea42ca9619cf</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Start Interview</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sys_ui_action_64ed109fdb00a01083f5ea42ca9619cf</sys_update_name>
+        <sys_updated_by>jayabharathi.tallada</sys_updated_by>
+        <sys_updated_on>2020-10-29 12:16:46</sys_updated_on>
+        <table>x_snc_now_hiring_job_application</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="48d7f05bdb846010ea1fa3530596192f" sys_domain="global" table="x_snc_now_hiring_applicant" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>saikiran.guduri</sys_created_by>
+            <sys_created_on>2020-10-29 09:44:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0d7f05bdb846010ea1fa35305961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_now_hiring_applicant" name="x_snc_now_hiring_applicant" sys_domain="global" view="Default view">48d7f05bdb846010ea1fa3530596192f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_now_hiring_applicant" sys_domain="global" view="Default view">5ad8e0dfdb446010ea1fa3530596193b</sys_ui_section>
+            <sys_updated_by>saikiran.guduri</sys_updated_by>
+            <sys_updated_on>2020-10-29 09:44:52</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>saikiran.guduri</sys_created_by>
+            <sys_created_on>2020-10-29 09:44:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cd7f05bdb846010ea1fa3530596194f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_now_hiring_applicant" name="x_snc_now_hiring_applicant" sys_domain="global" view="Default view">48d7f05bdb846010ea1fa3530596192f</sys_ui_form>
+            <sys_ui_section caption="Personal Information" display_value="Personal Information" name="x_snc_now_hiring_applicant" sys_domain="global" view="Default view">c0d7f05bdb846010ea1fa3530596192e</sys_ui_section>
+            <sys_updated_by>saikiran.guduri</sys_updated_by>
+            <sys_updated_on>2020-10-29 09:45:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>saikiran.guduri</sys_created_by>
+            <sys_created_on>2020-10-29 09:44:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0d7f05bdb846010ea1fa35305961933</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_now_hiring_applicant" name="x_snc_now_hiring_applicant" sys_domain="global" view="Default view">48d7f05bdb846010ea1fa3530596192f</sys_ui_form>
+            <sys_ui_section caption="Professional Summary" display_value="Professional Summary" name="x_snc_now_hiring_applicant" sys_domain="global" view="Default view">ccd7f05bdb846010ea1fa3530596192c</sys_ui_section>
+            <sys_updated_by>saikiran.guduri</sys_updated_by>
+            <sys_updated_on>2020-10-29 09:45:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_now_hiring_applicant</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>saikiran.guduri</sys_created_by>
+            <sys_created_on>2020-10-29 09:44:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48d7f05bdb846010ea1fa3530596192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_now_hiring_applicant</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+            <sys_update_name>sys_ui_form_sections_48d7f05bdb846010ea1fa3530596192f</sys_update_name>
+            <sys_updated_by>saikiran.guduri</sys_updated_by>
+            <sys_updated_on>2020-10-29 09:44:52</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

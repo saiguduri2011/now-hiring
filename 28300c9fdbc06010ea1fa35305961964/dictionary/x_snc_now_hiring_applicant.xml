@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_user" label="Applicant" max_length="40" name="x_snc_now_hiring_applicant" sizeclass="6" type="collection">
+        <element label="Able to relocate" max_length="40" name="able_to_relocate" type="boolean"/>
+        <element label="Able to work in shifts" max_length="40" name="able_to_work_in_shifts" type="boolean"/>
+        <element label="Address" max_length="400" name="address" type="string"/>
+        <element label="Business title" max_length="40" name="business_title" type="string"/>
+        <element label="Cover Letter" max_length="8000" name="cover_letter" type="html"/>
+        <element label="Current CTC" max_length="40" name="current_ctc" type="string"/>
+        <element label="Expected CTC" max_length="40" name="expected_ctc" type="string"/>
+        <element label="Experience" max_length="40" name="experience" type="string"/>
+        <element label="Facebook Profile" max_length="1024" name="facebook_profile" type="url"/>
+        <element label="Last working date" max_length="40" name="last_working_date" type="glide_date"/>
+        <element label="Linkedin Profile" max_length="1024" name="linkedin_profile" type="url"/>
+        <element label="Onboarded" max_length="40" name="onboarded" type="boolean"/>
+        <element label="Skills" max_length="4000" name="skills" reference="cmn_skill" type="glide_list"/>
+        <element label="Verified" max_length="40" name="verified" type="boolean"/>
+    </element>
+</database>

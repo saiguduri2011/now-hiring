@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list>job_description,number,primary_skills,secondary_skills</field_list>
+        <filter table="x_snc_now_hiring_job_requisition">state=40^on_hold=false^EQ<item display_value="Published" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="40"/>
+            <item endquery="false" field="on_hold" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">99c49d9fdbc46010ea1fa353059619f6</sp_column>
+        <sp_page display_value="form">ed5f8ec347730200ba13a5554ee49046</sp_page>
+        <sp_widget display_value="hiring Simple list">151c2ddfdb086010ea1fa3530596194a</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 11:51:32</sys_created_on>
+        <sys_id>efc4dd9fdbc46010ea1fa3530596193f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Open jobs</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sp_instance_vlist_efc4dd9fdbc46010ea1fa3530596193f</sys_update_name>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 13:34:05</sys_updated_on>
+        <table>x_snc_now_hiring_job_requisition</table>
+        <title>Open jobs</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "job_description,primary_skills,secondary_skills",
+		"displayValue": "job_description,primary_skills,secondary_skills"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=efc4dd9fdbc46010ea1fa3530596193f"/>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Incident" source="com.snc.incident">48fa2926db04201083f5ea42ca9619ee</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-18 06:45:58</sys_created_on>
+        <sys_id>a6ae47a1dba4ac10ea1fa353059619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-18 06:45:58</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

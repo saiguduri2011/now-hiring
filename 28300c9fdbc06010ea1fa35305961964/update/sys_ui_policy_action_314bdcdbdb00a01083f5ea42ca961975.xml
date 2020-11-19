@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>interview_recording_link</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jayabharathi.tallada</sys_created_by>
+        <sys_created_on>2020-10-29 07:40:29</sys_created_on>
+        <sys_id>314bdcdbdb00a01083f5ea42ca961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>interview_recording_link</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sys_ui_policy_action_314bdcdbdb00a01083f5ea42ca961975</sys_update_name>
+        <sys_updated_by>jayabharathi.tallada</sys_updated_by>
+        <sys_updated_on>2020-10-29 07:40:29</sys_updated_on>
+        <table>x_snc_now_hiring_interview</table>
+        <ui_policy display_value="Mandatory Fields for Interview Complete">6b1b5cdbdb00a01083f5ea42ca96197e</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

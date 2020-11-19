@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>true</display_override>
+        <element>assigned_to</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_snc_now_hiring_job_requisition</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 06:56:47</sys_created_on>
+        <sys_id>2641981fdb046010ea1fa35305961945</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sys_dictionary_override_2641981fdb046010ea1fa35305961945</sys_update_name>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 06:58:53</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</application>
+        <file_path/>
+        <instance_id>c3ea8bb3dbe197c01ddcf22ebf9619bb</instance_id>
+        <instance_name>cert166</instance_name>
+        <name>sys_dictionary_override_2641981fdb046010ea1fa35305961945</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>true</display_override><element>assigned_to</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_snc_now_hiring_job_requisition</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>balaji.thirunavukkarasu</sys_created_by><sys_created_on>2020-10-29 06:56:47</sys_created_on><sys_id>2641981fdb046010ea1fa35305961945</sys_id><sys_mod_count>2</sys_mod_count><sys_name>assigned_to</sys_name><sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package><sys_policy/><sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope><sys_update_name>sys_dictionary_override_2641981fdb046010ea1fa35305961945</sys_update_name><sys_updated_by>balaji.thirunavukkarasu</sys_updated_by><sys_updated_on>2020-10-29 06:58:53</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>518373310</payload_hash>
+        <record_name>assigned_to</record_name>
+        <reverted_from/>
+        <source>ac30cc9fdbc06010ea1fa35305961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 06:58:53</sys_created_on>
+        <sys_id>a4d1dc1fdb046010ea1fa353059619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1757326f0f00000001</sys_recorded_at>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 06:58:53</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>20d1dc1fb7046010bea79fcfc5ba77b7</update_guid>
+        <update_guid_history>20d1dc1fb7046010bea79fcfc5ba77b7:518373310,e071181fe2046010a0078ce3496484db:-168020037,3951981fbc0460106198ac141d31254c:-55696761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 07:09:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>03f4322058f848e88312be3285427304</sys_id>
+        <sys_metadata>2641981fdb046010ea1fa35305961945</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assigned_to</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_parent display_value="x_snc_now_hiring_job_requisition">d7c50c17db046010ea1fa3530596192b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_scope_delete display_value="">669de1fdc5c94658a3316466e4313a40</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_2641981fdb046010ea1fa35305961945</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_2641981fdb046010ea1fa35305961945">a4d1dc1fdb046010ea1fa353059619b7</sys_update_version>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 07:09:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

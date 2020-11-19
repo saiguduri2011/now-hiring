@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="NOW Hiring">99f0c053db046010ea1fa35305961976</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>cmn_skill</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 05:45:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>59f0c053db046010ea1fa3530596197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sys_app_module_59f0c053db046010ea1fa3530596197c</sys_update_name>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 05:45:12</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</application>
+        <file_path/>
+        <instance_id>c3ea8bb3dbe197c01ddcf22ebf9619bb</instance_id>
+        <instance_name>cert166</instance_name>
+        <name>sys_app_module_59f0c053db046010ea1fa3530596197c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NOW Hiring">99f0c053db046010ea1fa35305961976</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>cmn_skill</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>saikiran.guduri</sys_created_by><sys_created_on>2020-10-29 05:45:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>59f0c053db046010ea1fa3530596197c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package><sys_policy/><sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope><sys_update_name>sys_app_module_59f0c053db046010ea1fa3530596197c</sys_update_name><sys_updated_by>saikiran.guduri</sys_updated_by><sys_updated_on>2020-10-29 05:45:12</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>313014235</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>ac30cc9fdbc06010ea1fa35305961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 05:45:12</sys_created_on>
+        <sys_id>51f0c053db046010ea1fa3530596197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17572e37c3f0000001</sys_recorded_at>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 05:45:12</sys_updated_on>
+        <type>Module</type>
+        <update_guid>99f0c0535f0460107404af4444a5387d</update_guid>
+        <update_guid_history>99f0c0535f0460107404af4444a5387d:313014235</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">3120ecd7db446010ea1fa3530596191d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 08:01:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>279fbc1bd0be4eeb9355076abc375619</sys_id>
+        <sys_metadata>59f0c053db046010ea1fa3530596197c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_scope_delete display_value="">669de1fdc5c94658a3316466e4313a40</sys_scope_delete>
+        <sys_update_name>sys_app_module_59f0c053db046010ea1fa3530596197c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_59f0c053db046010ea1fa3530596197c">51f0c053db046010ea1fa3530596197e</sys_update_version>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 08:01:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

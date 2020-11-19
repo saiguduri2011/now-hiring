@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Job Application" max_length="40" name="x_snc_now_hiring_job_application" sizeclass="4" type="collection">
+        <element label="Able to work in shifts" max_length="40" name="able_to_work_in_shifts" type="boolean"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Applicant" mandatory="true" max_length="32" name="applicant" reference="x_snc_now_hiring_applicant" type="reference" use_dynamic_default="true"/>
+        <element attributes="encode_utf8=false" label="Applying for" max_length="32" name="applying_for" reference="x_snc_now_hiring_job_requisition" type="reference"/>
+        <element label="Current Location" max_length="32" name="current_location" reference="cmn_location" type="reference"/>
+        <element label="Email ID" max_length="100" name="email_id" type="string"/>
+        <element label="Experience" mandatory="true" max_length="40" name="experience" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Final Status" max_length="40" name="final_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Accepted" value="100"/>
+                <element inactive_on_update="false" label="Rejected" value="200"/>
+            </choice>
+        </element>
+        <element label="First Name" max_length="50" name="first_name" type="string"/>
+        <element label="Gender" max_length="40" name="gender" type="string"/>
+        <element choice="1" label="HR Interview Status" max_length="40" name="hr_interview_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Accepted" sequence="10" value="100"/>
+                <element inactive_on_update="false" label="Rejected" sequence="20" value="200"/>
+            </choice>
+        </element>
+        <element label="Inteviewers" max_length="4000" name="inteviewers" reference="sys_user" reference_qual="javascript:'sys_idIN' + new x_snc_now_hiring.NOWHiringUtils().getAllInterviewers()" type="glide_list" use_reference_qualifier="advanced"/>
+        <element label="Last Name" max_length="50" name="last_name" type="string"/>
+        <element label="Last working date" max_length="40" name="last_working_date" type="calendar_date_time"/>
+        <element label="Linkedin Profile" max_length="1024" name="linkedin_profile" type="url"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="phone_number_e164"/>
+        <element choice="1" label="Technical Interview Status" max_length="40" name="technical_interview_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Accepted" sequence="10" value="100"/>
+                <element inactive_on_update="false" label="Rejected" sequence="20" value="200"/>
+            </choice>
+        </element>
+    </element>
+</database>

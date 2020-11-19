@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 08:01:02</sys_created_on>
+        <sys_id>08cf58d7db446010ea1fa353059619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_now_hiring_job_requisition.x_snc_now_hiring.hr_business_manager</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_security_acl display_value="x_snc_now_hiring_job_requisition">cfc50c17db046010ea1fa3530596190c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_08cf58d7db446010ea1fa353059619e0</sys_update_name>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 08:01:02</sys_updated_on>
+        <sys_user_role display_value="x_snc_now_hiring.hr_business_manager" name="x_snc_now_hiring.hr_business_manager">b280849fdbc06010ea1fa353059619c9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</application>
+        <file_path/>
+        <instance_id>c3ea8bb3dbe197c01ddcf22ebf9619bb</instance_id>
+        <instance_name>cert166</instance_name>
+        <name>sys_security_acl_role_08cf58d7db446010ea1fa353059619e0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>balaji.thirunavukkarasu</sys_created_by><sys_created_on>2020-10-29 08:01:02</sys_created_on><sys_id>08cf58d7db446010ea1fa353059619e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_now_hiring_job_requisition.x_snc_now_hiring.hr_business_manager</sys_name><sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package><sys_policy/><sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope><sys_security_acl display_value="x_snc_now_hiring_job_requisition">cfc50c17db046010ea1fa3530596190c</sys_security_acl><sys_update_name>sys_security_acl_role_08cf58d7db446010ea1fa353059619e0</sys_update_name><sys_updated_by>balaji.thirunavukkarasu</sys_updated_by><sys_updated_on>2020-10-29 08:01:02</sys_updated_on><sys_user_role display_value="x_snc_now_hiring.hr_business_manager" name="x_snc_now_hiring.hr_business_manager">b280849fdbc06010ea1fa353059619c9</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1917230523</payload_hash>
+        <record_name>x_snc_now_hiring_job_requisition.x_snc_now_hiring.hr_business_manager</record_name>
+        <reverted_from/>
+        <source>ac30cc9fdbc06010ea1fa35305961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 08:01:02</sys_created_on>
+        <sys_id>83006cd7db446010ea1fa35305961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175735fd6e60000001</sys_recorded_at>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 08:01:02</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>cb006cd704446010992efa4747f19547</update_guid>
+        <update_guid_history>cb006cd704446010992efa4747f19547:1917230523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_now_hiring_job_requisition.x_snc_now_hiring.hr_business_manager">08a22c5bdb446010ea1fa35305961970</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 08:12:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>2c4c5527888b4c3c8880cb4d7b6161e4</sys_id>
+        <sys_metadata>08cf58d7db446010ea1fa353059619e0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_now_hiring_job_requisition.x_snc_now_hiring.hr_business_manager</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_parent display_value="x_snc_now_hiring_job_requisition">cfc50c17db046010ea1fa3530596190c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_scope_delete display_value="">669de1fdc5c94658a3316466e4313a40</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_08cf58d7db446010ea1fa353059619e0</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_08cf58d7db446010ea1fa353059619e0">83006cd7db446010ea1fa35305961948</sys_update_version>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 08:12:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>active</display_field>
+        <field_list>number,state,primary_skills,secondary_skills</field_list>
+        <filter table="x_snc_now_hiring_job_requisition">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by>active</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c0fc385fdb846010ea1fa3530596196b</sp_column>
+        <sp_page display_value="job_requisition">ee317417db846010ea1fa3530596199b</sp_page>
+        <sp_widget display_value="Job Requisition Data">0d3db85fdb846010ea1fa353059619a2</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 10:08:47</sys_created_on>
+        <sys_id>964d3c5fdb846010ea1fa35305961973</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sp_instance_table_964d3c5fdb846010ea1fa35305961973</sys_update_name>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 10:10:13</sys_updated_on>
+        <table>x_snc_now_hiring_job_requisition</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"enable_filter": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=964d3c5fdb846010ea1fa35305961973"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</application>
+        <file_path/>
+        <instance_id>c3ea8bb3dbe197c01ddcf22ebf9619bb</instance_id>
+        <instance_name>cert166</instance_name>
+        <name>sp_instance_table_964d3c5fdb846010ea1fa35305961973</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_table"&gt;&lt;sp_instance_table action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;active&lt;/display_field&gt;&lt;field_list&gt;number,state,primary_skills,secondary_skills&lt;/field_list&gt;&lt;filter table="x_snc_now_hiring_job_requisition"&gt;active=true^EQ&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;maximum_entries&gt;5&lt;/maximum_entries&gt;&lt;order&gt;1&lt;/order&gt;&lt;order_by&gt;active&lt;/order_by&gt;&lt;order_direction&gt;asc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;c0fc385fdb846010ea1fa3530596196b&lt;/sp_column&gt;&lt;sp_page display_value="job_requisition"&gt;ee317417db846010ea1fa3530596199b&lt;/sp_page&gt;&lt;sp_widget display_value="Job Requisition Data"&gt;0d3db85fdb846010ea1fa353059619a2&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_table&lt;/sys_class_name&gt;&lt;sys_created_by&gt;balaji.thirunavukkarasu&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-29 10:08:47&lt;/sys_created_on&gt;&lt;sys_id&gt;964d3c5fdb846010ea1fa35305961973&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="NOW Hiring" source="x_snc_now_hiring"&gt;28300c9fdbc06010ea1fa35305961964&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NOW Hiring"&gt;28300c9fdbc06010ea1fa35305961964&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_table_964d3c5fdb846010ea1fa35305961973&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;balaji.thirunavukkarasu&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-29 10:10:13&lt;/sys_updated_on&gt;&lt;table&gt;x_snc_now_hiring_job_requisition&lt;/table&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"enable_filter": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_table&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=964d3c5fdb846010ea1fa35305961973"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1007386317</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ac30cc9fdbc06010ea1fa35305961950</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 10:10:13</sys_created_on>
+        <sys_id>539db09fdb846010ea1fa35305961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17573d61e120000001</sys_recorded_at>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 10:10:13</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>db9db09f5484601002bc6764e017e403</update_guid>
+        <update_guid_history>db9db09f5484601002bc6764e017e403:-1007386317,f46d7c5fed846010f92f187b09047a15:923964647,164d3c5ffc846010c5682e252d0ee675:1609294649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">eced749fdb846010ea1fa353059619a9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>balaji.thirunavukkarasu</sys_created_by>
+        <sys_created_on>2020-10-29 10:11:23</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>14d3f2f447f541f4a7f947a191cdfe10</sys_id>
+        <sys_metadata>964d3c5fdb846010ea1fa35305961973</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_scope_delete display_value="">669de1fdc5c94658a3316466e4313a40</sys_scope_delete>
+        <sys_update_name>sp_instance_table_964d3c5fdb846010ea1fa35305961973</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_964d3c5fdb846010ea1fa35305961973">539db09fdb846010ea1fa35305961904</sys_update_version>
+        <sys_updated_by>balaji.thirunavukkarasu</sys_updated_by>
+        <sys_updated_on>2020-10-29 10:11:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

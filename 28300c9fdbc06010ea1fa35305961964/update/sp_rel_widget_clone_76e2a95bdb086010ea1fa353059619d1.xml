@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Copy of link-button">3ee2695bdb086010ea1fa35305961925</child>
+        <cloned>2020-10-29 12:53:12</cloned>
+        <last_validated>2020-10-29 12:53:12</last_validated>
+        <parent display_value="link-button">abc50de6d702120023c84f80de61036a</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.btn {
+  width: 100%;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data&gt;{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}&lt;/demo_data&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;color&lt;/field_list&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id&gt;widget-link-button&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;link-button&lt;/name&gt;&lt;option_schema&gt;[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]&lt;/option_schema&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[data.buttonMsg = gs.getMessage(options.button_text || "Click Here");
+data.socialQAEnabled = true;
+data.canReadKnowledgeBase = true;
+if (options.href == "?id=sqanda_new_question") {
+	data.socialQAEnabled = gs.getProperty('glide.sp.socialqa.enabled') === 'true';
+	data.knowledgeBase = $sp.getPortalRecord().getValue("sqanda_knowledge_base") || gs.getProperty("glide.service_portal.sqanda.default_kb");
+	data.canReadKnowledgeBase = $sp.canReadRecord("kb_knowledge_base", data.knowledgeBase);
+}]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2016-03-11 23:15:45&lt;/sys_created_on&gt;&lt;sys_id&gt;abc50de6d702120023c84f80de61036a&lt;/sys_id&gt;&lt;sys_mod_count&gt;56&lt;/sys_mod_count&gt;&lt;sys_name&gt;link-button&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;4d423de6db44201083f5ea42ca9619f4&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_abc50de6d702120023c84f80de61036a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-03-11 07:44:53&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;a ng-href="{{options.href}}" class="btn btn-{{options.color}} m-b" ng-if="data.socialQAEnabled &amp;&amp; data.canReadKnowledgeBase"&gt;{{data.buttonMsg}}&lt;/a&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 12:53:12</sys_created_on>
+        <sys_id>76e2a95bdb086010ea1fa353059619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3ee2695bdb086010ea1fa35305961925</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_76e2a95bdb086010ea1fa353059619d1</sys_update_name>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 12:53:12</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

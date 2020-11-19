@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn {
+  width: 100%;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"href": "www.google.com",
+	"button_text": "Go to google"
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list>color</field_list>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Copy of link-button</name>
+        <option_schema>[{"name":"href","section":"Presentation","label":"Link for button","type":"string"},{"name":"button_text","section":"Presentation","label":"Contents of button","type":"string"}]</option_schema>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <script><![CDATA[data.buttonMsg = gs.getMessage(options.button_text || "Click Here");
+data.socialQAEnabled = true;
+data.canReadKnowledgeBase = true;
+if (options.href == "?id=sqanda_new_question") {
+	data.socialQAEnabled = gs.getProperty('glide.sp.socialqa.enabled') === 'true';
+	data.knowledgeBase = $sp.getPortalRecord().getValue("sqanda_knowledge_base") || gs.getProperty("glide.service_portal.sqanda.default_kb");
+	data.canReadKnowledgeBase = $sp.canReadRecord("kb_knowledge_base", data.knowledgeBase);
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>saikiran.guduri</sys_created_by>
+        <sys_created_on>2020-10-29 12:53:12</sys_created_on>
+        <sys_id>3ee2695bdb086010ea1fa35305961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Copy of link-button</sys_name>
+        <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+        <sys_update_name>sp_widget_3ee2695bdb086010ea1fa35305961925</sys_update_name>
+        <sys_updated_by>saikiran.guduri</sys_updated_by>
+        <sys_updated_on>2020-10-29 12:53:12</sys_updated_on>
+        <template><![CDATA[<a ng-href="{{options.href}}" class="btn btn-{{options.color}} m-b" ng-if="data.socialQAEnabled && data.canReadKnowledgeBase">{{data.buttonMsg}}</a>]]></template>
+    </sp_widget>
+</record_update>

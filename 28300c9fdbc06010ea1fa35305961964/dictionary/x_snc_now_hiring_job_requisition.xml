@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Job Requisition" max_length="40" name="x_snc_now_hiring_job_requisition" sizeclass="4" type="collection">
+        <element attributes="encode_utf8=false" label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Expected Hiring Date" max_length="40" name="expected_hiring_date" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Hiring Manager" max_length="32" name="hiring_manager" reference="sys_user" type="reference"/>
+        <element label="Job Description" max_length="65536" name="job_description" type="html"/>
+        <element label="On hold" max_length="40" name="on_hold" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Position" max_length="40" name="position" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Primary skills" max_length="1024" name="primary_skills" reference="cmn_skill" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Secondary skills" max_length="1024" name="secondary_skills" reference="cmn_skill" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Target Hiring Date" max_length="40" name="target_hiring_date" type="glide_date"/>
+    </element>
+</database>

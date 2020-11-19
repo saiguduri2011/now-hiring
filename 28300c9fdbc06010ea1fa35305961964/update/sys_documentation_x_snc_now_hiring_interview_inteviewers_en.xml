@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="inteviewers" label="Interviewers" language="en" table="x_snc_now_hiring_interview">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>inteviewers</element>
+            <help/>
+            <hint/>
+            <label>Interviewers</label>
+            <language>en</language>
+            <name>x_snc_now_hiring_interview</name>
+            <plural>Interviewers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jayabharathi.tallada</sys_created_by>
+            <sys_created_on>2020-10-29 08:25:35</sys_created_on>
+            <sys_id>66a520d3db40a01083f5ea42ca9619e0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Interviewers</sys_name>
+            <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_now_hiring_interview_inteviewers_en</sys_update_name>
+            <sys_updated_by>jayabharathi.tallada</sys_updated_by>
+            <sys_updated_on>2020-10-29 12:01:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

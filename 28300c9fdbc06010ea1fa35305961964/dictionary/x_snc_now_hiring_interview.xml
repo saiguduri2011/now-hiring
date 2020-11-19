@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="Interview" max_length="40" name="x_snc_now_hiring_interview" sizeclass="11" type="collection">
+        <element label="Applicant" max_length="32" name="applicant" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Interview Recording Link" max_length="1024" name="interview_recording_link" type="url"/>
+        <element label="Interviewers" max_length="4000" name="inteviewers" reference="sys_user" reference_qual="javascript:'sys_idIN' + new x_snc_now_hiring.NOWHiringUtils().getAllInervewiersORBusinessManagers()" type="glide_list" use_reference_qualifier="advanced"/>
+        <element label="Inteviewer Final Decision Comments" max_length="4000" name="inteviewer_final_decision_comments" type="string"/>
+        <element label="Job Application" max_length="32" name="job_application" read_only="true" reference="x_snc_now_hiring_job_application" type="reference"/>
+        <element label="Rating" max_length="40" name="rating" type="integer"/>
+        <element label="Requisition" max_length="32" name="requisition" read_only="true" reference="x_snc_now_hiring_job_requisition" type="reference"/>
+        <element display="true" label="Title" max_length="40" name="title" type="string"/>
+        <element choice="1" label="Type of Interview" max_length="40" name="type_of_interview" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Technical" sequence="10" value="Technical"/>
+                <element inactive_on_update="false" label="Managerial" sequence="20" value="Managerial"/>
+                <element inactive_on_update="false" label="HR" sequence="30" value="HR"/>
+            </choice>
+        </element>
+    </element>
+</database>

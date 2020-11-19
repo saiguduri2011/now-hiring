@@ -5,7 +5,7 @@
         <api_name>x_snc_now_hiring.NOWHiringUtils</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
-        <description/>
+        <description>..</description>
         <name>NOWHiringUtils</name>
         <script><![CDATA[var NOWHiringUtils = Class.create();
 NOWHiringUtils.prototype = {
@@ -85,13 +85,13 @@ NOWHiringUtils.prototype = {
         <sys_created_by>jayabharathi.tallada</sys_created_by>
         <sys_created_on>2020-10-29 09:07:16</sys_created_on>
         <sys_id>c25eec1bdb40a01083f5ea42ca9619b8</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>NOWHiringUtils</sys_name>
         <sys_package display_value="NOW Hiring" source="x_snc_now_hiring">28300c9fdbc06010ea1fa35305961964</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NOW Hiring">28300c9fdbc06010ea1fa35305961964</sys_scope>
         <sys_update_name>sys_script_include_c25eec1bdb40a01083f5ea42ca9619b8</sys_update_name>
-        <sys_updated_by>jayabharathi.tallada</sys_updated_by>
-        <sys_updated_on>2020-10-29 12:03:39</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-19 09:09:40</sys_updated_on>
     </sys_script_include>
 </record_update>
